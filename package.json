@@ -1,0 +1,27 @@
+{
+  "name": "tailr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "docx": "^8.5.0",
+    "docxtemplater": "^3.46.1",
+    "express": "^4.19.2",
+    "img2txt": "^0.0.3",
+    "mammoth": "^1.7.1",
+    "mongoose": "^8.2.3",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "pizzip": "^3.1.6",
+    "pngparse": "^2.0.1",
+    "textract": "^2.5.0"
+  }
+}
