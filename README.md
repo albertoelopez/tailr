@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/reworkd/AgentGPT/main/next/public/banner.png" height="300" alt="AgentGPT Logo"/>
+  <img src="https://raw.githubusercontent.com/albertoelopez/tailr/master/DALL%C2%B7E%202024-03-30%2017.17.05%20-%20Visualize%20a%20sleek%2C%20modern%20interface%20of%20a%20resume%20generator%20app%20called%20TAILR%2C%20displayed%20on%20a%20computer%20screen.%20The%20interface%20is%20crafting%20a%20sample%20resume%2C.webp" height="300" alt="TAILR Logo"/>
 </p>
 <p align="center">
   <em>🤖 Assemble, configure, and deploy autonomous AI Agent(s) in your browser. 🤖   </em>
