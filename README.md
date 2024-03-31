@@ -13,9 +13,7 @@
 <a href="https://twitter.com/Alaicode">🐦 Twitter</a>
 </p>
 
-AgentGPT allows you to configure and deploy Autonomous AI agents.
-Name your own custom AI and have it embark on any goal imaginable.
-It will attempt to reach the goal by thinking of tasks to do, executing them, and learning from the results 🚀.
+TAILR automates the resume tailor process! 🚀.
 
 ---
 
