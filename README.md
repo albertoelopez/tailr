@@ -116,10 +116,8 @@ Join us in fueling the development of AgentGPT, an open-source project pushing t
 Our contributors have made this project possible. Thank you! 🙏
 </p>
 
-<a href="https://github.com/reworkd/agentgpt/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=reworkd/agentgpt" />
+<a href="https://github.com/albertoelopez/tailr/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=albertoelopez/tailr" />
 </a>
 
-<div align="center">
-<sub>Made with <a href="https://contrib.rocks">contrib.rocks</a>.</sub>
-</div>
+Made with [contrib.rocks](https://contrib.rocks).
