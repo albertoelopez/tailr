@@ -18,7 +18,7 @@ TAILR automates the resume tailor process! 🚀.
 ---
 
 ## ✨ Demo
-Try our site [our site](https://tailr.ai) directly. (Soon, not live yet!)
+Try our site [our site](https://tailr.aii) directly. (Soon, not live yet!)
 
 [Demo Video](https://github.com/rtailrdemo) (NOT LIVE YET!)
 
