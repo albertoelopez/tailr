@@ -11,7 +11,6 @@
 
 <p align="center">
 <a href="https://twitter.com/Alaicode">🐦 Twitter</a>
-<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
 </p>
 
 AgentGPT allows you to configure and deploy Autonomous AI agents.
