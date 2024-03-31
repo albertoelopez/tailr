@@ -93,7 +93,7 @@ our [public roadmap](https://docs.reworkd.ai/essentials/roadmap).
 </h2>
 
 <p align="center">
-Join us in fueling the development of AgentGPT, an open-source project pushing the boundaries of AI agents! Your sponsorship would drive progress by helping us scale up resources, enhance features and functionality, and continue to iterate on this exciting project! 🚀
+Join us in developement of TAILR a resume generator app! 🚀
 </p>
 
 <p align="center">
