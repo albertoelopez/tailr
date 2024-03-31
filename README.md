@@ -41,7 +41,7 @@ TODO
 </h2>
 
 <p align="center">
-Join us in developement of TAILR a resume generator app! 🚀
+Join us in development of TAILR a resume generator app! 🚀
 </p>
 
 <p align="center">
