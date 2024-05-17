@@ -34,14 +34,14 @@ async function sendDataWithFileContent(userData, filePath, fileName) {
         }
 
         // Combine userData and file content in the prompt
-        /*
         const prompt = `
         Create a resume from: job description: 
         ${userData}\n\n and original_resume: ${fileData}
         
         Do not include information from job description that does not match original_resume information. 
         Also, if the job description and original_resume are not good matches return empty string.`;
-        */
+
+        /*
         const prompt = `Given a detailed job description and the content of a current resume, generate a new resume that closely matches the job description. This new resume should effectively highlight relevant experiences, skills, and achievements from the current resume, aligning with the job requirements. Ensure the new resume rephrases and reorganizes the information to appeal specifically to this job opportunity, maintaining a professional tone, action-oriented language, and an emphasis on results and accomplishments.
 
 - **Job Description Provided:**\n${userData}\n
@@ -58,9 +58,10 @@ async function sendDataWithFileContent(userData, filePath, fileName) {
 7. **Format and Clean-up:** Properly indent and remove unnecessary text and characters for a clean presentation.
 
 Generate the tailored resume with these guidelines in mind.`;
+*/
 
         const data = {
-            model: "mistral",
+            model: "llama3:8b",
             prompt: prompt,
             stream: false
         };
@@ -68,6 +69,7 @@ Generate the tailored resume with these guidelines in mind.`;
         // Send the combined data in the POST request
         const response = await axios.post('http://localhost:11434/api/generate', data);
         const extractedText = await response.data.response;
+        console.log(`EXTRACTEDTEXT: ${extractedText}`);
 
         return extractedText;
     } catch (error) {

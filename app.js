@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 const cors = require('cors');
 const multer = require('multer');
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
 const fs = require('fs');
 const createResume = require("./create_resume.js");
 const { Document, Packer, Paragraph, TextRun } = require('docx');
@@ -15,6 +15,7 @@ app.use(express.json());
 // Middleware to parse JSON bodies
 app.use(express.json());
 
+/*
 mongoose.connect('mongodb://localhost/myUploadsDB');
 mongoose.connection.on('connected', () => {
     console.log('Connected to MongoDB successfully');
@@ -22,6 +23,7 @@ mongoose.connection.on('connected', () => {
 mongoose.connection.on('error', (err) => {
     console.error('Failed to connect to MongoDB:', err);
 });
+*/
 
 // Setup multer for file upload
 const storage = multer.diskStorage({
@@ -34,6 +36,12 @@ const storage = multer.diskStorage({
 });
 
 const upload = multer({ storage: storage });
+
+app.use('/api/data', (req, res, next) => {
+  res.set('Cache-Control', 'no-store');
+  next();
+});
+
 
 // Route to handle POST request
 app.post('/api/data', upload.single('resume'), async (req, res) => {
@@ -74,6 +82,7 @@ app.post('/api/data', upload.single('resume'), async (req, res) => {
     res.send(buffer);
 
     try {
+        /*
         const newUpload = new Upload({
             userData: userData,
             fileName: file.filename,
@@ -81,6 +90,7 @@ app.post('/api/data', upload.single('resume'), async (req, res) => {
         });
 
         await newUpload.save();
+        */
 
         // res.status(200).json({ message: 'Data and file uploaded successfully', uploadId: newUpload._id });
     } catch (error) {
